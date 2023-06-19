@@ -1,9 +1,10 @@
 # SysML 2 AUTOSAR Transformation
 
-Rhapsody M2M transformation from SysML to AUTOSAR. In order to open, view and run the M2M transformation, you need Rhapsody 9.0.1 and the [Sodius M2M plugins](https://www.sodiuswillert.com/en/products/model-to-model-transformation-for-rhapsody).
+Rhapsody M2M transformation from SysML to AUTOSAR (Classic). In order to open, view, and run the M2M transformation, you need Rhapsody 9.0.1 and [Sodius M2M plugins](https://www.sodiuswillert.com/en/products/model-to-model-transformation-for-rhapsody). 
 
 The demo project and M2M Ruleset table are in the rhapsody folder. Altough the Rhapsody project contains the JavaScript (JS) files, we have provided them in a separate javascript folder.
 
+- To export a SysML model into AUTOSAR: expand M2MExportRulesets-->Right click on sysML2ARXML --> select M2M-Export Model --> select the taget path and OK.
 
 ## SysML to AUTOSAR JS
 
