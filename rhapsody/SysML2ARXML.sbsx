@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202110051520</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID c0545cf1-6ed1-4053-b4f4-0a2781013d67</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Stereotype</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">M2M_UI_FilePath</_Name>
+													<_Value type="a">C:\Work\ARXML.arxml</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">M2M_UI_GenerateTraceabilityReport</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">M2M_UI_Keep_Window_Open</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">M2M_UI_LaunchM2MChecker</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">Sysml2ARXML</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IERuleset</_hsubsystem>
+							<_hname type="a">M2MExportRuleset</_hname>
+							<_hid type="a">GUID 0f38fcb1-c356-4ee8-a61e-690f1be52bc6</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.30.2023::14:39:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2023::14:39:43</_modifiedTime>
+			<_lastID type="a">8</_lastID>
+			<weakCGTime type="a">1.30.2023::14:39:43</weakCGTime>
+			<strongCGTime type="a">1.30.2023::14:39:43</strongCGTime>
+			<_defaultComposite type="s">GUID 29419a85-ae85-4e4c-894d-fa7b10bf9dfd</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 7c2dd846-01bc-423d-b377-de7ec1e9389e</value>
+				<value>GUID cfca60c0-1569-49f6-9b93-59faa5661ded</value>
+				<value>GUID e3accdd5-203b-4e02-b86e-e73fb1ddc119</value>
+				<value>GUID 899ca37d-7510-40c8-b581-4c746684d08e</value>
+				<value>GUID 0bec53c5-3005-48ba-812d-487e37bddcd5</value>
+				<value>GUID 55b92d57-1a64-49b7-b89f-76d5bd0fa594</value>
+				<value>GUID c9b5277a-af30-4988-9249-3e710cc3d2be</value>
+				<value>GUID 2cf2d151-c080-4523-96e7-5e98c7d8b10a</value>
+				<value>GUID 29419a85-ae85-4e4c-894d-fa7b10bf9dfd</value>
+				<value>GUID 2c88d299-4fd8-4b15-9b5e-2f471ed1f1c6</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 7c2dd846-01bc-423d-b377-de7ec1e9389e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">exportmappingrule_1</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+							<_hname type="a">ExportMappingRule</_hname>
+							<_hid type="a">GUID e409e892-0eed-46a8-9c73-6384f2355f27</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:18:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:18:9</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<AggregatesList type="e">
+				<value>GUID a7d770e2-0387-4cdc-8ff2-81afb7aba4ee</value>
+				<value>GUID 23c6fb7a-7696-4fd8-aa57-cbd4488107d0</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID a7d770e2-0387-4cdc-8ff2-81afb7aba4ee</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AUTOSAR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">eClassRef</_hname>
+							<_hid type="a">GUID c3dd5858-fe14-4abe-a4a4-87895b00a835</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:18:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:18:9</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\Metamodels\MDW_AUTOSAR_431_R1803\MDW_AUTOSAR_431_R1803.sbsx</_hfilename>
+					<_hsubsystem type="a">MDW_AUTOSAR_431_R1803::AUTOSARRoot::M2::AUTOSARTemplates::AutosarTopLevelStructure</_hsubsystem>
+					<_hname type="a">AUTOSAR</_hname>
+					<_hid type="a">GUID 182ba072-791a-4659-aaf9-b2e92a4c7413</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 7c2dd846-01bc-423d-b377-de7ec1e9389e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 23c6fb7a-7696-4fd8-aa57-cbd4488107d0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sourceMetaclass</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::17:17:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:17:56</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRules::MappingRules</_hsubsystem>
+					<_hclass type="a">AbstractRhpSourceMappingRule</_hclass>
+					<_hname type="a">sourceMetaclass</_hname>
+					<_hid type="a">GUID f3296666-1526-40c9-915a-98fd7c25f6cd</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 8dea2928-7ef4-417d-b00c-7226fcbdf9e5</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 8dea2928-7ef4-417d-b00c-7226fcbdf9e5</_id>
+			<_modifiedTimeWeak type="a">1.26.2023::17:17:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:17:56</_modifiedTime>
+			<_value type="a">Project</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID cfca60c0-1569-49f6-9b93-59faa5661ded</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">exportmappingrule_3</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+							<_hname type="a">ExportMappingRule</_hname>
+							<_hid type="a">GUID e409e892-0eed-46a8-9c73-6384f2355f27</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:22:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:22:22</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 1c9470cb-da60-49e7-b935-1c11ea74c6fc</value>
+				<value>GUID cbb782fb-5b89-4be7-a01b-650414ccd6ec</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 1c9470cb-da60-49e7-b935-1c11ea74c6fc</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ARPackage</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">eClassRef</_hname>
+							<_hid type="a">GUID c3dd5858-fe14-4abe-a4a4-87895b00a835</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:22:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:22:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\Metamodels\MDW_AUTOSAR_431_R1803\MDW_AUTOSAR_431_R1803.sbsx</_hfilename>
+					<_hsubsystem type="a">MDW_AUTOSAR_431_R1803::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::GeneralTemplateClasses::ARPackage</_hsubsystem>
+					<_hname type="a">ARPackage</_hname>
+					<_hid type="a">GUID 98706442-c716-439f-8657-090417c59ff8</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID cfca60c0-1569-49f6-9b93-59faa5661ded</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID cbb782fb-5b89-4be7-a01b-650414ccd6ec</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sourceMetaclass</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::17:22:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:22:11</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRules::MappingRules</_hsubsystem>
+					<_hclass type="a">AbstractRhpSourceMappingRule</_hclass>
+					<_hname type="a">sourceMetaclass</_hname>
+					<_hid type="a">GUID f3296666-1526-40c9-915a-98fd7c25f6cd</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID dc5476c5-9758-49f1-b467-c289ab20d5f2</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID dc5476c5-9758-49f1-b467-c289ab20d5f2</_id>
+			<_modifiedTimeWeak type="a">1.26.2023::17:22:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:22:11</_modifiedTime>
+			<_value type="a">Package</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID e3accdd5-203b-4e02-b86e-e73fb1ddc119</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">exportmappingrule_4</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+							<_hname type="a">ExportMappingRule</_hname>
+							<_hid type="a">GUID e409e892-0eed-46a8-9c73-6384f2355f27</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::20:34:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::20:34:32</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<AggregatesList type="e">
+				<value>GUID fe58c22e-162e-454f-b562-136e1bc9ed57</value>
+				<value>GUID f791a676-3299-4aa9-a309-d7465d23ab3b</value>
+				<value>GUID 312f7c20-4504-4c41-a30c-bd494ce2602e</value>
+				<value>GUID 2c5fe381-e4b4-496b-9568-7cb66a33a220</value>
+				<value>GUID c969aa77-6fbf-428e-b647-43e00245661b</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID fe58c22e-162e-454f-b562-136e1bc9ed57</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PPortPrototype</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">eClassRef</_hname>
+							<_hid type="a">GUID c3dd5858-fe14-4abe-a4a4-87895b00a835</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:26:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:26:35</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\Metamodels\MDW_AUTOSAR_431_R1803\MDW_AUTOSAR_431_R1803.sbsx</_hfilename>
+					<_hsubsystem type="a">MDW_AUTOSAR_431_R1803::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::Components</_hsubsystem>
+					<_hname type="a">PPortPrototype</_hname>
+					<_hid type="a">GUID ff446c5b-d587-44f1-9455-fa16b91be4a1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID e3accdd5-203b-4e02-b86e-e73fb1ddc119</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID f791a676-3299-4aa9-a309-d7465d23ab3b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">pport</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">jsConditionRef</_hname>
+							<_hid type="a">GUID a875d0a5-d3bb-4ff5-a1c7-d4e7dffc4ba1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:45:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:45:58</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 14f0a8f1-93a8-40f1-8d0c-d87d64756b1b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID e3accdd5-203b-4e02-b86e-e73fb1ddc119</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 312f7c20-4504-4c41-a30c-bd494ce2602e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ppostproc</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">jsPostprocessRef</_hname>
+							<_hid type="a">GUID 2cbb90ce-75ee-42ac-8920-dd34e69eceb4</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::18:24:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::18:24:8</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID b111ee1b-249c-47ba-8279-369171a6978c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID e3accdd5-203b-4e02-b86e-e73fb1ddc119</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 2c5fe381-e4b4-496b-9568-7cb66a33a220</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sourceMetaclass</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::17:25:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:25:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRules::MappingRules</_hsubsystem>
+					<_hclass type="a">AbstractRhpSourceMappingRule</_hclass>
+					<_hname type="a">sourceMetaclass</_hname>
+					<_hid type="a">GUID f3296666-1526-40c9-915a-98fd7c25f6cd</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 27cc7672-4487-4e74-9424-578a3abd5d91</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 27cc7672-4487-4e74-9424-578a3abd5d91</_id>
+			<_modifiedTimeWeak type="a">1.26.2023::17:25:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:25:0</_modifiedTime>
+			<_value type="a">Port</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID c969aa77-6fbf-428e-b647-43e00245661b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">priority</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::20:34:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::20:34:32</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRules::MappingRules</_hsubsystem>
+					<_hclass type="a">AbstractMappingRule</_hclass>
+					<_hname type="a">priority</_hname>
+					<_hid type="a">GUID 518277a7-399b-4ae7-ae0f-3ca11003098a</_hid>
+				</IHandle>
+			</_base>
+		</ITag>
+		<IRequirement type="e">
+			<_id type="a">GUID 899ca37d-7510-40c8-b581-4c746684d08e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">exportmappingrule_5</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+							<_hname type="a">ExportMappingRule</_hname>
+							<_hid type="a">GUID e409e892-0eed-46a8-9c73-6384f2355f27</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:47:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:47:57</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<AggregatesList type="e">
+				<value>GUID 97479f60-0b55-4d06-96ca-7eb5ee795b3f</value>
+				<value>GUID fffbff6d-921a-4453-ab5a-a62e50766f30</value>
+				<value>GUID 7120560f-5d13-4402-85ce-3052b0b81cde</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 97479f60-0b55-4d06-96ca-7eb5ee795b3f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">RPortPrototype</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">eClassRef</_hname>
+							<_hid type="a">GUID c3dd5858-fe14-4abe-a4a4-87895b00a835</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:27:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:27:8</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\Metamodels\MDW_AUTOSAR_431_R1803\MDW_AUTOSAR_431_R1803.sbsx</_hfilename>
+					<_hsubsystem type="a">MDW_AUTOSAR_431_R1803::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::Components</_hsubsystem>
+					<_hname type="a">RPortPrototype</_hname>
+					<_hid type="a">GUID 68b9ae12-1aac-44ac-bbb8-7c5858bfbcf9</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 899ca37d-7510-40c8-b581-4c746684d08e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID fffbff6d-921a-4453-ab5a-a62e50766f30</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">rport</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">jsConditionRef</_hname>
+							<_hid type="a">GUID a875d0a5-d3bb-4ff5-a1c7-d4e7dffc4ba1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:47:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:47:57</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID f9fb5b3b-32a9-4516-931e-dbbb43478c4e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 899ca37d-7510-40c8-b581-4c746684d08e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 7120560f-5d13-4402-85ce-3052b0b81cde</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sourceMetaclass</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::17:27:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:27:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRules::MappingRules</_hsubsystem>
+					<_hclass type="a">AbstractRhpSourceMappingRule</_hclass>
+					<_hname type="a">sourceMetaclass</_hname>
+					<_hid type="a">GUID f3296666-1526-40c9-915a-98fd7c25f6cd</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 7ad78209-134c-40fb-833c-da490df7b697</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 7ad78209-134c-40fb-833c-da490df7b697</_id>
+			<_modifiedTimeWeak type="a">1.26.2023::17:27:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:27:22</_modifiedTime>
+			<_value type="a">Port</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 0bec53c5-3005-48ba-812d-487e37bddcd5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Interface2senderReceiverInterface</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+							<_hname type="a">ExportMappingRule</_hname>
+							<_hid type="a">GUID e409e892-0eed-46a8-9c73-6384f2355f27</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::20:34:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::20:34:24</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<AggregatesList type="e">
+				<value>GUID 58522da9-f481-4927-958a-afd267027b62</value>
+				<value>GUID 90b8a12d-e346-4f4a-bed6-bd927b497d56</value>
+				<value>GUID ded1c0f7-a9d4-4046-9543-9b163804efca</value>
+				<value>GUID a4d87eba-8029-476e-9118-d78e4a6eecaf</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 58522da9-f481-4927-958a-afd267027b62</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Interface</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">sourceStereotype</_hname>
+							<_hid type="a">GUID 1512f7f9-ac2b-4555-a647-fefac5c7cc7e</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:28:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:28:7</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">Interface</_hname>
+					<_hid type="a">GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 0bec53c5-3005-48ba-812d-487e37bddcd5</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 90b8a12d-e346-4f4a-bed6-bd927b497d56</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">SenderReceiverInterface</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">eClassRef</_hname>
+							<_hid type="a">GUID c3dd5858-fe14-4abe-a4a4-87895b00a835</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:28:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:28:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\Metamodels\MDW_AUTOSAR_431_R1803\MDW_AUTOSAR_431_R1803.sbsx</_hfilename>
+					<_hsubsystem type="a">MDW_AUTOSAR_431_R1803::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::PortInterface</_hsubsystem>
+					<_hname type="a">SenderReceiverInterface</_hname>
+					<_hid type="a">GUID 6b8f3c5a-2ac4-47a2-9a29-6d725c6a889c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 0bec53c5-3005-48ba-812d-487e37bddcd5</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID ded1c0f7-a9d4-4046-9543-9b163804efca</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sourceMetaclass</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::17:27:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:27:44</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRules::MappingRules</_hsubsystem>
+					<_hclass type="a">AbstractRhpSourceMappingRule</_hclass>
+					<_hname type="a">sourceMetaclass</_hname>
+					<_hid type="a">GUID f3296666-1526-40c9-915a-98fd7c25f6cd</_hid>
+				</IHandle>
+			</_base>
+		</ITag>
+		<ITag type="e">
+			<_id type="a">GUID a4d87eba-8029-476e-9118-d78e4a6eecaf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">priority</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::18:51:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::18:51:28</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpInteger</_hname>
+					<_hid type="a">GUID 9503fd72-4374-4a1d-9a70-b60508d8f583</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRules::MappingRules</_hsubsystem>
+					<_hclass type="a">AbstractMappingRule</_hclass>
+					<_hname type="a">priority</_hname>
+					<_hid type="a">GUID 518277a7-399b-4ae7-ae0f-3ca11003098a</_hid>
+				</IHandle>
+			</_base>
+		</ITag>
+		<IRequirement type="e">
+			<_id type="a">GUID 55b92d57-1a64-49b7-b89f-76d5bd0fa594</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">block to portsblock</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+							<_hname type="a">ExportMappingRule</_hname>
+							<_hid type="a">GUID e409e892-0eed-46a8-9c73-6384f2355f27</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:52:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:52:38</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<AggregatesList type="e">
+				<value>GUID 17d63d35-a63d-4aa7-8fbc-cda69b8c3d29</value>
+				<value>GUID f4c79310-201b-4b30-b79f-f39a08f418b0</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 17d63d35-a63d-4aa7-8fbc-cda69b8c3d29</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Block</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">sourceStereotype</_hname>
+							<_hid type="a">GUID 1512f7f9-ac2b-4555-a647-fefac5c7cc7e</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:52:15</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IStereotype</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+					<_hname type="a">Block</_hname>
+					<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 55b92d57-1a64-49b7-b89f-76d5bd0fa594</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID f4c79310-201b-4b30-b79f-f39a08f418b0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ApplicationSwComponentType</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::MappingElements</_hsubsystem>
+							<_hname type="a">eClassRef</_hname>
+							<_hid type="a">GUID c3dd5858-fe14-4abe-a4a4-87895b00a835</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:52:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:52:38</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\Metamodels\MDW_AUTOSAR_431_R1803\MDW_AUTOSAR_431_R1803.sbsx</_hfilename>
+					<_hsubsystem type="a">MDW_AUTOSAR_431_R1803::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::Components</_hsubsystem>
+					<_hname type="a">ApplicationSwComponentType</_hname>
+					<_hid type="a">GUID a311bab1-05e2-49c6-bb8b-afde9414f56f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 55b92d57-1a64-49b7-b89f-76d5bd0fa594</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID c9b5277a-af30-4988-9249-3e710cc3d2be</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">source_profile</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_multiplicity type="a">*</_multiplicity>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::Ruleset</_hsubsystem>
+					<_hclass type="a">AbstractFromRhpRuleset</_hclass>
+					<_hname type="a">source_profile</_hname>
+					<_hid type="a">GUID a511deee-6104-428e-902f-b69219c7fffd</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID a4d637d9-1606-4985-b2e2-2555f42ef0a7</value>
+			</AggregatesList>
+		</ITag>
+		<IContextSpecification type="e">
+			<_id type="a">GUID a4d637d9-1606-4985-b2e2-2555f42ef0a7</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<m_csContext type="a">soa.SysML</m_csContext>
+			<m_csPartsArray type="a">(IProfile)::.SysML (GUID d9689b73-885e-44c4-896b-de43defa0a33),(IProject)::.soa (GUID d18a5fb4-17b8-4a66-a1d6-0670c99bfe9c)</m_csPartsArray>
+		</IContextSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 2cf2d151-c080-4523-96e7-5e98c7d8b10a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">target_metamodel</_name>
+			<_modifiedTimeWeak type="a">1.26.2023::17:14:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:14:49</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M_IE::IERuleset</_hsubsystem>
+					<_hclass type="a">M2MExportRuleset</_hclass>
+					<_hname type="a">target_metamodel</_hname>
+					<_hid type="a">GUID 38495cd9-120d-4425-a08d-2c07b506ac28</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 82d7e64e-5723-4a35-b909-d64f381aecc5</value>
+			</AggregatesList>
+		</ITag>
+		<IContextSpecification type="e">
+			<_id type="a">GUID 82d7e64e-5723-4a35-b909-d64f381aecc5</_id>
+			<_modifiedTimeWeak type="a">1.26.2023::17:14:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:14:49</_modifiedTime>
+			<m_csContext type="a">soa.MDW_AUTOSAR_431_R1803</m_csContext>
+			<m_csPartsArray type="a">(ISubsystem)::.MDW_AUTOSAR_431_R1803 (GUID 3dcf02d1-ae03-4e69-8e26-32019947d7da),(IProject)::.soa (GUID d18a5fb4-17b8-4a66-a1d6-0670c99bfe9c)</m_csPartsArray>
+		</IContextSpecification>
+		<IClass type="e">
+			<_id type="a">GUID 29419a85-ae85-4e4c-894d-fa7b10bf9dfd</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.30.2023::14:38:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2023::14:38:36</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">1.30.2023::14:38:36</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 14f0a8f1-93a8-40f1-8d0c-d87d64756b1b</value>
+				<value>GUID f9fb5b3b-32a9-4516-931e-dbbb43478c4e</value>
+				<value>GUID b111ee1b-249c-47ba-8279-369171a6978c</value>
+				<value>GUID 83798a87-4026-481a-8292-6a71e118ebaf</value>
+				<value>GUID 173de342-71f2-4880-965a-3dc5fc70a912</value>
+			</AggregatesList>
+		</IClass>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 14f0a8f1-93a8-40f1-8d0c-d87d64756b1b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">pport</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRuleExtentions::IEJSRunnables</_hsubsystem>
+							<_hname type="a">JSConditionExport</_hname>
+							<_hid type="a">GUID e4bb17b7-e323-4d67-96b8-a1932a53699b</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:44:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:44:57</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">return element.getProvidedInterfaces().getCount() &gt; 0;</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID 79fcdd2b-8932-4781-97e8-28e96c2f2fa3</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID 79fcdd2b-8932-4781-97e8-28e96c2f2fa3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">element</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+							<_hname type="a">JSArgument</_hname>
+							<_hid type="a">GUID 2e03c808-d58e-4212-a910-80cf65b92783</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:29:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:29:40</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+					<_hname type="a">IRPModelElement</_hname>
+					<_hid type="a">GUID 4125f0c5-3d42-49b1-8806-bf9626e2f867</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID f9fb5b3b-32a9-4516-931e-dbbb43478c4e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">rport</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRuleExtentions::IEJSRunnables</_hsubsystem>
+							<_hname type="a">JSConditionExport</_hname>
+							<_hid type="a">GUID e4bb17b7-e323-4d67-96b8-a1932a53699b</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:47:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:47:37</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">return element.getRequiredInterfaces().getCount() &gt; 0;</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID 7eb79fee-a255-4e90-a04f-b52689bcdf06</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID 7eb79fee-a255-4e90-a04f-b52689bcdf06</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">element</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+							<_hname type="a">JSArgument</_hname>
+							<_hid type="a">GUID 2e03c808-d58e-4212-a910-80cf65b92783</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:29:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:29:40</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+					<_hname type="a">IRPModelElement</_hname>
+					<_hid type="a">GUID 4125f0c5-3d42-49b1-8806-bf9626e2f867</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID b111ee1b-249c-47ba-8279-369171a6978c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ppostproc</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRuleExtentions::IEJSRunnables</_hsubsystem>
+							<_hname type="a">JSPostprocessExport</_hname>
+							<_hid type="a">GUID 27c20600-e72d-41a6-8d66-e3877c71f760</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.30.2023::14:38:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2023::14:38:27</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">/**%0D
+The rules for transforming ports and interfaces are separate%0D
+In order to assign the correct transformed interface to the correct transformed port we must:%0D
+%0D
+1. Get the Interface from the Port Protoype ARXML%0D
+2. Get the corresponding transformed SysML Interface%0D
+3. Get the transformed SysML port%0D
+4. Assign the transformed interface to the transformed port%0D
+%0D
+**/%0D
+%0D
+//Get the SysML Port from the map - we will use this later %0D
+var sysMLPort = mapMDW2RhpElements.get(element); %0D
+%0D
+//Get the sysMLInterface%0D
+var interfaces = sysMLPort.getProvidedInterfaces().toList();%0D
+if (interfaces.isEmpty())%0D
+	return;%0D
+	%0D
+sysMLInterface = interfaces.get(0);%0D
+%0D
+//Get the transformed Port Prototype Interface from the map%0D
+var arInterface = mapRhp2MDWElements.get(sysMLInterface);;%0D
+if (isNull(arInterface)) {%0D
+	logger.severe(&quot;No Interface Founs in Map for &quot; + sysMLInterface.getName());%0D
+	return;%0D
+}%0D
+%0D
+//Set the Port Prototype Interface%0D
+element.setProvidedInterface(arInterface);%0D
+</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID dbd2c406-7066-40d5-807a-e866fd7e9ac6</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID dbd2c406-7066-40d5-807a-e866fd7e9ac6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">element</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+							<_hname type="a">JSArgument</_hname>
+							<_hid type="a">GUID 2e03c808-d58e-4212-a910-80cf65b92783</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::18:13:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::18:13:30</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M_IE::IEMappingRuleExtentions</_hsubsystem>
+					<_hname type="a">MDWObject</_hname>
+					<_hid type="a">GUID 5d5dd158-0cc2-4204-a8ee-36cc14fdb85c</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 83798a87-4026-481a-8292-6a71e118ebaf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">isNotNull</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+							<_hname type="a">JSFunction</_hname>
+							<_hid type="a">GUID 5bf7f726-48b4-475d-b8ea-72f6f750a6bb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.30.2023::14:22:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2023::14:22:6</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">%0D
+/**%0D
+This function returns true if the element is NOT one of these:%0D
+null%0D
+undefined%0D
+NaN%0D
+empty string (&quot;&quot;)%0D
+0%0D
+false%0D
+element: model element %0D
+%0D
+**/%0D
+isNotNull = function (element) {%0D
+if (element) %0D
+	return true;%0D
+ else%0D
+	return false;%0D
+}</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID 749383e2-e779-4b3a-8b05-96eab1cf8e50</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID 749383e2-e779-4b3a-8b05-96eab1cf8e50</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">element</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+							<_hname type="a">JSArgument</_hname>
+							<_hid type="a">GUID 2e03c808-d58e-4212-a910-80cf65b92783</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.30.2023::14:22:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2023::14:22:6</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+					<_hname type="a">var</_hname>
+					<_hid type="a">GUID ff57e436-04ae-47cb-8094-e7294cf54d01</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 173de342-71f2-4880-965a-3dc5fc70a912</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">isNull</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+							<_hname type="a">JSFunction</_hname>
+							<_hid type="a">GUID 5bf7f726-48b4-475d-b8ea-72f6f750a6bb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.30.2023::14:36:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2023::14:36:11</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">/**%0D
+This function returns true if the element is:%0D
+null%0D
+undefined%0D
+NaN%0D
+empty string (&quot;&quot;)%0D
+0%0D
+false%0D
+element: model element %0D
+%0D
+**/%0D
+if (element) %0D
+	return false;%0D
+ else%0D
+	return true;</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID a0c9d868-757e-46ee-b568-dcd869397127</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID a0c9d868-757e-46ee-b568-dcd869397127</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">element</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+							<_hname type="a">JSArgument</_hname>
+							<_hid type="a">GUID 2e03c808-d58e-4212-a910-80cf65b92783</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.30.2023::14:36:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2023::14:36:7</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2M\M2M.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M::MappingRuleExtentions</_hsubsystem>
+					<_hname type="a">var</_hname>
+					<_hid type="a">GUID ff57e436-04ae-47cb-8094-e7294cf54d01</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<ITableInstance type="e">
+			<_id type="a">GUID 2c88d299-4fd8-4b15-9b5e-2f471ed1f1c6</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableView</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">UseOwnerScope</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">sysml2arxml rule table</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+							<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+							<_hname type="a">ExportMappingRulesTable</_hname>
+							<_hid type="a">GUID 205da80f-e0ec-4034-b242-0f39cb0eea74</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.26.2023::17:16:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2023::17:16:7</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">.\..\..\..\..\..\IBM\SOWI\RhapsodyExtensions\9.0.1.4\AUTOSAR\M2M_2.5.0\M2MIE\M2M_IE.sbsx</_hfilename>
+					<_hsubsystem type="a">M2M_IE::IEMappingRules::ExportMappingRules</_hsubsystem>
+					<_hname type="a">ExportMappingRulesLayout</_hname>
+					<_hid type="a">GUID 54a43824-f21d-4769-8bcb-385c7b50d149</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

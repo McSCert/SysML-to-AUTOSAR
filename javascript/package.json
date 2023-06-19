@@ -1,0 +1,11 @@
+{
+  "name": "m2m_ie",
+  "version": "1.0.0",
+  "description": "Helper Functions for the M2M IE RuleSet transformation",
+  "main": "syml2ar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Horacio Hoyos Rodriguez",
+  "license": "ISC"
+}

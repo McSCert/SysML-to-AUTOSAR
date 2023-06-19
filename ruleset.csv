@@ -1,0 +1,24 @@
+Priority,"Source Metaclass","Source Stereotype","Target EClass","Target Owner EClass","Target Owner EFeature","Condition Function","New Context Function","Post-process Function",ID,Specification,Activation,"Stereotype Inheritance","Strict Matching"
+,Reception,,VariableDataPrototype,,,IsNotEventforOperationWithEvent,,AddEventParameters,,,enable,,
+,Argument,,VariableDataPrototype,,,IsSROperationArgument,,AddTypeAndDirectionOfArgument,,,enable,,enable
+,Attribute,,VariableDataPrototype,,,IsStaticAttribute,,SetInterRunnableVarParent,,,enable,,
+,,operationWdata,VariableDataPrototype,,,OwnerIsInterface,,ChangeDataPrototypeNameAndSetType,,,enable,,
+,,PeriodicOperation,TimingEvent,,,,,SetTimingEventStructure,,,,,
+,Object,,SwComponentPrototype,,,IsUsedInLink,,,,,,,
+,,Interface,SenderReceiverInterface,,,IsSenderReceiverInterface,AddInterfacePackageHierarchy,,,,enable,,
+,,operationWevent,RunnableEntity,,,OwnerIsSwComp,,SetRunnableEntityParent,,,enable,,
+,Operation,,RunnableEntity,,,OwnerIsSwComp,,SetRunnableEntityParent,,,enable,,
+,,PIMProperty,PerInstanceMemory,,,,,AddPerInstanceMemory,,,enable,,
+,,CallibrationProperty,ParameterDataPrototype,,,,,ChangeCallibrationStructure,,,enable,,
+,Event,,OperationInvokedEvent,,,IsEventforOperationWithEvent,,SetOperationInstanceRef,,,enable,,
+,,operationWevent,ClientServerOperation,,,OwnerIsInterface,,,,,enable,,
+,,Interface,ClientServerInterface,,,IsClientServerInterface,AddInterfacePackageHierarchy,,,,enable,,
+,Argument,,ArgumentDataPrototype,,,IsCSOperationArgument,,AddTypeAndDirectionOfArgument,,,enable,,enable
+,,ValueType,ApplicationPrimitiveDataType,,,,,AddAppDataTypeStructure,,,,,
+,,DataType,ApplicationPrimitiveDataType,,,,AddAppDataTypePackageHeirarchy,AddAppDataTypeStructure,,,enable,,enable
+1,Project,,AUTOSAR,,,,,,,,,,
+2,Package,,ARPackage,,,,,,,,,,
+3,,SoftwareComponent,ApplicationSwComponentType,,,,AddSWCPackageHierarchy,AddSwcInternalBehavior,,,enable,,enable
+4,Port,,RPortPrototype,,,IsRequiredPort,,AddRPortStructure,,,,,
+4,Port,,PPortPrototype,,,IsProvidedPort,,AddPPortStructure,,,enable,,enable
+5,,link,AssemblySwConnector,,,,AddCompositionSwCompType,AddAssemblySwConStruct,,,enable,,enable
