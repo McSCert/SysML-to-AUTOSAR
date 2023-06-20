@@ -8,13 +8,13 @@ The demo project and M2M Ruleset table are in the rhapsody folder. Altough the R
 
 ## SysML to AUTOSAR JS
 
-The purpose of the accompaning sysML2ArFunctions JavaScript (JS) file is to proive a set of JS functions that can be called from a Rhapsody M2M RuleSet to allow development of the pre-condtion, new context and post-processing functions outisde of Rhapsody. In turn, this allows the use of JS aware IDEs that can provide a better development environment than Rhapsody. 
+The purpose of the accompaning sysML2ArFunctions JavaScript (JS) file is to provide a set of JS functions that can be called from a Rhapsody M2M Ruleset to allow development of the pre-condition, new context and post-processing functions outisde of Rhapsody. In turn, this allows the use of JS aware IDEs that can provide a better development environment than Rhapsody. 
 
 ### The sysml2ar.js Script
 
-This script contains a set of functions that are used as pre-condtion, new context and post-processing, and additionall contains helper functions.
+This script contains a set of functions that are used as pre-condition, new context and post-processing, and additional helper functions.
 
-Functions use a prefix in order to indetify them as condition, context or
+Functions use a prefix in order to identify them as condition, context or
 post-process functions.
 
     JSConditionExport   -> ce
