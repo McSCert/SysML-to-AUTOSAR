@@ -1,10 +1,10 @@
 # SysML 2 AUTOSAR Transformation
 
-Rhapsody M2M transformation from SysML to AUTOSAR (Classic). In order to open, view, and run the M2M transformation, you need Rhapsody 9.0.1 and [Sodius M2M plugins](https://www.sodiuswillert.com/en/products/model-to-model-transformation-for-rhapsody). 
+Rhapsody M2M transformation is from SysML to AUTOSAR (Classic). In order to open, view, and run the M2M transformation, you need Rhapsody 9.0.1 and [Sodius M2M plugins](https://www.sodiuswillert.com/en/products/model-to-model-transformation-for-rhapsody). 
 
 The demo project and M2M Ruleset table are in the rhapsody folder. Altough the Rhapsody project contains the JavaScript (JS) files, we have provided them in a separate javascript folder.
 
-- To export a SysML model into AUTOSAR: expand M2MExportRulesets-->Right click on sysML2ARXML --> select M2M-Export Model --> select the taget path and OK.
+- To export a SysML model into AUTOSAR: expand M2MExportRulesets-->Right click on sysML2ARXML --> select M2M-Export Model --> select the target path and OK.
 
 ## SysML to AUTOSAR JS
 
@@ -36,8 +36,8 @@ the Rhapsody JS editor, you write short delegate functions instead. For example:
    
         ppeXXX(element);
         
-This allows you to edit the script file using a JS friendly editor (to get syntax check, variable resolution, formating, etc.).
+It allows you to edit the script file using a JS friendly editor (to get syntax check, variable resolution, formating, etc.).
 
 ### The TypeScript (TS) helpers
 
-The `package.json`, `jsconfig.json` and typing files (in the typings folder) provide partial typing information of the Rhapsody and AUTOSAR APIs. This typing information can be used, for example in VSCodium, to improve content assist and some basic type checking.
+The `package.json`, `jsconfig.json` and typing files (in the typings folder) provide partial typing information of the Rhapsody and AUTOSAR APIs. This typing information can be used. For example, in VSCodium, to improve content assist and some basic type checking.
