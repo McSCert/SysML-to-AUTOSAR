@@ -4,7 +4,7 @@ Rhapsody M2M transformation is from SysML to AUTOSAR (Classic). In order to open
 
 The demo project and M2M Ruleset table are in the rhapsody folder. Altough the Rhapsody project contains the JavaScript (JS) files, we have provided them in a separate javascript folder.
 
-- To export a SysML model into AUTOSAR: expand M2MExportRulesets-->Right click on sysML2ARXML --> select M2M-Export Model --> select the target path and OK.
+- To export a SysML model into AUTOSAR using Rhapsody modeling environment: expand M2MExportRulesets-->Right click on sysML2ARXML --> select M2M-Export Model --> select the target path and OK.
 
 ## SysML to AUTOSAR JS
 
@@ -21,16 +21,16 @@ post-process functions.
     JSNewContextExport  -> nce
     JSPostprocessExport -> ppe
 
-Since functions in a library cannot be directly assigned to condition, context  or postprocess cells, we suggest that instaed of copying code in this file to 
-the Rhapsody JS editor, you write short delegate functions instead. For example:
+Since functions in a library cannot be directly assigned to condition, context or postprocess cells, we suggest that instead of copying code in this file to 
+the Rhapsody JS editor, you write short delegate functions. For example:
 
 - JSConditionExport:
   
         return ceXXX(element);
 
 - JSNewContextExport:
-	
-		 nceXXX(element);
+
+        nceXXX(element);
 
 - JSPostprocessExport:
    
