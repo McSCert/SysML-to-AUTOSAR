@@ -30,7 +30,7 @@ the Rhapsody JS editor, you write short delegate functions. For example:
 
 - JSNewContextExport:
 
-        nceXXX(element);
+        return nceXXX(element);
 
 - JSPostprocessExport:
    
