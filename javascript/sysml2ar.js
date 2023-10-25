@@ -1,3 +1,4 @@
+//new
 /** === Start Conditions === **/
 
 /**
@@ -68,7 +69,7 @@ function ceRequiredPort(port) {
  * Applied to an Interface (IRP.Classifier) to determine if it should be
  * transformed into a MDW.SenderReceiverInterface.
  *
- * All operations in the interface should be either «operationWdata»
+ * All operations in the interface should be either «OperationWdata»
  * or «reception».
  * 
  * @param {IRP.Classifier} interface
@@ -79,7 +80,7 @@ function ceIsSenderReceiverInterface(interface){
 	var rhpIntItems = interface.getInterfaceItems();
 	for (var i=1; i<=rhpIntItems.getCount(); i++) {
 		var rhpIntItem = rhpIntItems.getItem(i);
-		if (isOperationWData(rhpIntItem) 
+		if (isOperationWdata(rhpIntItem) 
 				|| rhpIntItem.getMetaClass().equals("EventReception")) {
 			opIsSRType += 1;
 		}
@@ -89,7 +90,7 @@ function ceIsSenderReceiverInterface(interface){
 		return true;
 	} else if (opIsSRType > 0) {
 		logger.severe("ceIsSenderReceiverInterface - The interface "+ interface.getName() +
-		"  should only contain «operationWdata»\
+		"  should only contain «OperationWdata»\
 		   or «reception». Please check the interface definition.");
 	}
 	return false;
@@ -99,7 +100,7 @@ function ceIsSenderReceiverInterface(interface){
  * Applied to an Interface (IRP.Classifier) to determine if it should be
  * transformed into a MDW.ClientServerInterface.
  *
- * Only operations with «operationWevent» belong to ClientServerIterface.
+ * Only operations with «OperationWevent» belong to ClientServerIterface.
  * 
  * @param {IRP.Classifier} interface
  * @returns {boolean} true, if the Interface should be transformed.
@@ -121,9 +122,9 @@ function ceIsClientServerInterface(interface){
  * Applied to an IRP.Event to determine if it should be transformed into an
  * MDW.OperationInvokedEvent.
  *
- * Only events that are used as 'events' in «operationWevent» Opereations.
+ * Only events that are used as 'events' in «OperationWevent» Opereations.
  * This function naviagtes to the event's package and searches for all
- * «operationWevent» Opereations inside the pacakges's blocks that have a
+ * «OperationWevent» Opereations inside the pacakges's blocks that have a
  * reference to the Event in the 'event' tag.
  *
  * @param {IRP.Event} event
@@ -138,9 +139,9 @@ function ceIsEventforOperationWithEvent(event) {
  * Applied to an IRP.Reception to determine if it should be transformed into an
  * MDW.OperationInvokedEvent.
  *
- * Only events that are used as 'events' in «operationWevent» Opereations.
+ * Only events that are used as 'events' in «OperationWevent» Opereations.
  * This function naviagtes to the event's package and searches for all
- * «operationWevent» Opereations inside the pacakges's blocks that have a
+ * «OperationWevent» Opereations inside the pacakges's blocks that have a
  * reference to the Event in the 'event' tag.
  *
  * @param {IRP.EventReception} reception
@@ -188,7 +189,6 @@ function ceIsCSOperationArgument(argument) {
 	var rhpOwner = argument.getOwner();
 	if (rhpOwner.getUserDefinedMetaClass().equals("Operation")) {
 		var rhpOpOwner = rhpOwner.getOwner();
-		//logger.info("=============" + element.getName()+ "parent " + rhpOpOwner.getUserDefinedMetaClass());
 		if (rhpOpOwner.getUserDefinedMetaClass().equals("Interface")) {
 			//logger.info("ceIsOperationArgument - Argument"+ argument.getName() + " Argument Owner: " + rhpOwner.getName()+" Owner's Parent "+ rhpOpOwner.getUserDefinedMetaClass());
 			return ceIsClientServerInterface(rhpOpOwner);
@@ -726,6 +726,15 @@ function ppeAddPerInstanceMemory(mdwPerInstanceMem){
 	//logger.info("ppeAddPerInstanceMemory - element: " + mdwPerInstanceMem.getShortName().getValue());
 
 	mdwSwInternalBeh.getPerInstanceMemory().add(mdwPerInstanceMem);
+	var  props = createSwDataDefProps();
+	var mdwSwDataDefProps = props[0];
+	var mdwDataDefPropsCond = props[1];
+	mdwPerInstanceMem.setSwDataDefProps(mdwSwDataDefProps);
+	var rhpPim = mapMDW2RhpElements.get(mdwPerInstanceMem);
+	var rhpType = rhpPim.getType();
+	logger.info(" ppeAddPerInstanceMemory - rhpType "+ rhpType.getName());
+	var mdwType = mapRhp2MDWElements.get(rhpType);
+	mdwDataDefPropsCond.setValueAxisDataType(mdwType); 
 }
 
 /**
@@ -755,6 +764,9 @@ function ppeChangeCallibrationStructure(mdwParamDataPrt){
 	mdwNumValVarPoint.setMixedContentIndex(0);
 	mdwInitVal.setValue(mdwNumValVarPoint);
 	mdwParamDataPrt.setInitValue(mdwInitVal);
+	var rhpType = rhpConstant.getType();
+	var mdwType = mapRhp2MDWElements.get(rhpType);
+	mdwParamDataPrt.setType(mdwType);
 }
 
 /**
@@ -814,19 +826,40 @@ function ppeAddEventParameters(mdwVarDataPrt) {
 		return;
 	}
 	mdwSRI.getDataElement().add(mdwVarDataPrt);
+	if (hasStereotype(rhpReception.getEvent(), "TypedEvent")){
+		var rhpType = rhpReception.getEvent().getTag("type").getValueSpecifications().getItem(1).getValue();
+		var mdwType = mapRhp2MDWElements.get(rhpType);
+		mdwVarDataPrt.setType(mdwType);
+	}
+	else{
+		logger.severe(" ppeAddEventParameters -  stereotype 'TypedEvent' missing in Event " +  rhpReception.getName());
+	}
 }
 
 /**
  * Set ExplicitInterRunnableVariable of the internal behavior of the block  
- * @param {MDW.RunnableEntity} mdwRunnableEntity
+ * @param {MDW.VariableDataPrototype} mdwVarDataProt
  **/
-function ppeSetInterRunnableVarParent(mdwRunnableEntity){
-	var rhpAttr = mapMDW2RhpElements.get(mdwRunnableEntity);
+function ppeSetInterRunnableVarParent(mdwVarDataProt){
+	var rhpAttr = mapMDW2RhpElements.get(mdwVarDataProt);
 	var rhpBlk = rhpAttr.getOwner();
 	var mdwAppSwComp = mapRhp2MDWElements.get(rhpBlk);
 	var mdwSWIntBeh = mdwAppSwComp.getInternalBehavior();
-	mdwSWIntBeh.get(0).getExplicitInterRunnableVariable().add(mdwRunnableEntity);
+	mdwSWIntBeh.get(0).getExplicitInterRunnableVariable().add(mdwVarDataProt);
+	var rhpType = rhpAttr.getType();
+	var mdwType = mapRhp2MDWElements.get(rhpType);
+	logger.info(" ppeSetInterRunnableVarParent - mdwType " + mdwType.getShortName().getValue());
+	if (isNotNull(mdwType)) {
+		//set type
+		mdwVarDataProt.setType(mdwType);
+	}
+	else {
+		logger.severe("ppeSetInterRunnableVarParent - No ApplicationDataType Found for " 
+				+ rhpType.getName() + " in " + rhpAttr.getName());
+	}
+	
 }
+
 
 /**
 * create ArPackage for ImplementationDataType. ImplementationDataType included in
@@ -904,14 +937,17 @@ function ppeSetRunnableEntityParent(mdwRunnableEntity){
 }
 
 /**
-* change the name of VariableDataPrototype for an OperationWdata
+* Change name of VariableDataPrototype for an OperationWdata 
+* Add Type to VariableDataPrototype
 * @param {MDW.VariableDataPrototype} mdwVarDataPrt
 */
-function ppeChangeDataPrototypeName(mdwVarDataPrt) {
+function ppeChangeDataPrototypeNameAndSetType(mdwVarDataPrt) {
 	var rhpOp = mapMDW2RhpElements.get(mdwVarDataPrt);
-	//var rhpAttr = rhpOp.getAttribute();
-	var rhpVarName = rhpOp.getTag("dataReceived");
-	mdwVarDataPrt.getShortName().setValue(rhpVarName.getValue() + "_" + rhpOp.getName());	
+	var rhpData = rhpOp.getTag("dataReceived");
+	var rhpType = rhpData.getValueSpecifications().getItem(1).getValue().getType();
+	var mdwType = mapRhp2MDWElements.get(rhpType);
+	mdwVarDataPrt.setType(mdwType);
+	mdwVarDataPrt.getShortName().setValue(rhpData.getValue() + "_" + rhpOp.getName());
 }
 
 /**
@@ -1021,21 +1057,20 @@ function ppeAddAppDataTypeStructure(mdwAppDataType)	{
 	var rhpDataType = mapMDW2RhpElements.get(mdwAppDataType);
 	logger.info("ppeAddAppDataTypeStructure - 3" + rhpDataType.getName());
 	if (rhpDataType.isKindEnumeration() == 1){
-		logger.info("ppeAddAppDataTypeStructure - 4");
+		//logger.info("ppeAddAppDataTypeStructure - 4");
 		var  props = createSwDataDefProps();
 		var mdwSwDataDefProps = props[0];
 		var mdwDataDefPropsCond = props[1];
-		logger.info("ppeAddAppDataTypeStructure - 5");
+		//logger.info("ppeAddAppDataTypeStructure - 5");
 		mdwAppDataType.setSwDataDefProps(mdwSwDataDefProps);
-		logger.info("ppeAddAppDataTypeStructure - 6");
+		//logger.info("ppeAddAppDataTypeStructure - 6");
 		var mdwCompuMethod = createCompuMethod(rhpDataType);
 		mdwDataDefPropsCond.setCompuMethod(mdwCompuMethod);
-		logger.info("ppeAddAppDataTypeStructure - 7");
+		//logger.info("ppeAddAppDataTypeStructure - 7");
 		var mdwUnit = getUnit(mdwAppDataType, "EnumUnit");
 		mdwCompuMethod.setUnit(mdwUnit);
 		mdwDataDefPropsCond.setUnit(mdwUnit);
 	}else if (rhpDataType.isKindTypedef() == 1){
-		logger.info("ppeAddAppDataTypeStructure - isKindTypedef " + rhpDataType.getTag("unit").getValueSpecifications().getItem(1).getName());
 		var mdwUnitsPkg = addARPackageHierarchy(mdwAppDataType,'DataTypes', 'Units');
 		var rhpUnit =  rhpDataType.getTag("unit");//.getValueSpecifications().getItem(1); 
 		var mdwUnit = getUnit(mdwAppDataType, rhpUnit.getValue());
@@ -1049,7 +1084,6 @@ function ppeAddAppDataTypeStructure(mdwAppDataType)	{
 
 function createSwDataDefProps(){
 	var mdwSwDataDefProps = model.create("SwDataDefProps");
-	logger.info("createSwDataDefProps - 1");
 	var mdwDataDefPropsCond = model.create("SwDataDefPropsConditional");
 	mdwSwDataDefProps.getSwDataDefPropsVariant().add(mdwDataDefPropsCond);
 	return [mdwSwDataDefProps, mdwDataDefPropsCond];
@@ -1108,21 +1142,21 @@ function isNull(element) {
 }
 
 /**
- * Returns true if the operation has the «operationWevent» stereotype
+ * Returns true if the operation has the «OperationWevent» stereotype
  * @param {IRP.InterfaceItem} operation
  * @returns
  */
 function isOperationWevent(operation) {
-	return hasStereotype(operation, "operationWevent")
+	return hasStereotype(operation, "OperationWevent")
 }
 
 /**
- * Returns true if the operation has the operationWdata stereotype
+ * Returns true if the operation has the OperationWdata stereotype
  * @param {IRP.InterfaceItem} operation
  * @returns
  */
-function isOperationWData(operation){
-	return hasStereotype(operation, "operationWdata")
+function isOperationWdata(operation){
+	return hasStereotype(operation, "OperationWdata")
 }
 
 /**
@@ -1259,7 +1293,7 @@ function isOpImplClientServer(rhpOp, rhpCls){
 	return false;
 }
 
-/*** Finds the operation in a block (implementation) the matching «operaetionWevent»
+/*** Finds the operation in a block (implementation) the matching «operationWevent»
 * that uses the event
 * @param {IRP.Event} rhpEvent
 * @param {boolean} forRequired true is required, otherwise provided
@@ -1337,7 +1371,7 @@ function addARPackageHierarchy(element, arPackageName, subPackageName) {
 	var rhpPkg = rhpEl.getOwner();
 	var mdwPkg = mapRhp2MDWElements.get(rhpPkg);
 	var mdwPkgs = mdwPkg.getArPackage();
-	logger.info("------------ rhpEl "+ rhpEl.getName()+ " rhpPkg " + rhpPkg.getName()+" mdwPkg " + mdwPkg.getShortName().getValue()+ " mdwPkgs " +mdwPkgs );
+	//logger.info("------------ rhpEl "+ rhpEl.getName()+ " rhpPkg " + rhpPkg.getName()+" mdwPkg " + mdwPkg.getShortName().getValue()+ " mdwPkgs " +mdwPkgs );
 	var mdwSwTypes;
 	for (var k=0 ; k<mdwPkgs.size(); k++) {
 		var mdwArPkg = mdwPkgs.get(k);
@@ -1523,19 +1557,31 @@ function createVariableAccess(attribute, runnable, tagType) {
 function createPOpRef(mdwAppSwComp, rhpEvent, opInvkEvnt) {
 	// get the source Block in SysML
 	var rhpBlk = mapMDW2RhpElements.get(mdwAppSwComp);
-   var objOperationAndPort = findOpWEvntForEvent(rhpEvent);
-   if (isNull(objOperationAndPort)) {
+	var objOperationAndPort = findOpWEvntForEvent(rhpEvent);
+	
+	if (isNull(objOperationAndPort)) {
 	   return false;
-   }
-   var mdwCSOperation = mapRhp2MDWElements.get(objOperationAndPort.operation);
-   var mdwPOpRef = model.create("POperationInAtomicSwcInstanceRef");
-   mdwPOpRef.setTargetProvidedOperation(mdwCSOperation);
+	}
+	var rhpOps = rhpBlk.getOperations();
+	for(var k=1;k<=rhpOps.getCount();k++) {
+		var rhpOp = rhpOps.getItem(k);
+		if (rhpOp.getName().endsWith(objOperationAndPort.operation.getName())) {
+			if (!objOperationAndPort.port.getProvidedInterfaces().toList().isEmpty() && objOperationAndPort.port.getRequiredInterfaces().toList().isEmpty()) {
+				if (ceIsClientServerInterface(objOperationAndPort.port.getProvidedInterfaces().getItem(1))) {
+					var mdwCSOperation = mapRhp2MDWElements.get(objOperationAndPort.operation);
+					var mdwPOpRef = model.create("POperationInAtomicSwcInstanceRef");
+					mdwPOpRef.setTargetProvidedOperation(mdwCSOperation);
 
-   var mdwPPortPrototype = mapRhp2MDWElements.get(objOperationAndPort.port);
-   mdwPOpRef.setContextPPort(mdwPPortPrototype);
-   opInvkEvnt.setOperation(mdwPOpRef); 
+					var mdwPPortPrototype = mapRhp2MDWElements.get(objOperationAndPort.port);
+					mdwPOpRef.setContextPPort(mdwPPortPrototype);
+					opInvkEvnt.setOperation(mdwPOpRef); 
 
-   return true;
+					return true; 
+				}
+			}
+		}
+	}
+		return false;
 }
 
 function createInternalBehavior(name){
@@ -1584,15 +1630,12 @@ function createCompuMethod(rhpEnum) {
 	var mdwCmpMthd = createElementWithName('CompuMethod', rhpEnum.getName());
 	var mdwAppDataType = mapRhp2MDWElements.get(rhpEnum);
 	var mdwCompuMethodsPkg = addARPackageHierarchy(mdwAppDataType,'DataTypes', 'CompuMethods');
-	logger.info("createCompuMethod - 1" );
 	mdwCompuMethodsPkg.getElement().add(mdwCmpMthd);
 	mdwCmpMthd.setCategory('TEXTTABLE'); 
 	var mdwI2P = model.create('Compu');
 	
 	mdwCmpMthd.setCompuInternalToPhys(mdwI2P);
-	logger.info("createCompuMethod - 2");
 	mdwI2P.setCompuContent(enumScales(rhpEnum));
-	logger.info("createCompuMethod - 3");
 	return mdwCmpMthd;
 }
 
@@ -1617,14 +1660,10 @@ function createCompuMethod(rhpEnum) {
  */
 function enumScales(rhpEnum) {
    var mdwScales = model.create('CompuScales');
-   logger.info("enumScales - 1");
    var enumLiterals = rhpEnum.getEnumerationLiterals();
-   logger.info("enumScales - 2");
    for (var i=1; i<=enumLiterals.getCount(); i++) {
       var literal = enumLiterals.getItem(i);
-	  logger.info("enumLiteralScale(literal) " + enumLiteralScale(literal));
       mdwScales.getCompuScale().add(enumLiteralScale(literal));
-	  logger.info("enumScales - 3");
    }
    return mdwScales;
 }
